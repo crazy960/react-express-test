@@ -1,0 +1,30 @@
+.footer_container{
+	height : 80px;
+	width : 100%;
+	bottom : 0px;
+	color : white;
+	position : fixed;
+	background-color : transparent;
+	border : solid 1px;
+	border-color : black;
+}
+
+.footer{
+	width : 100vw;
+	bottom : 0;
+	height : 100vh;
+	color : white;
+	position : relative;
+	background-color : black;
+	transition : transform 1.5s;
+	transform : translateY(80px);
+	
+}
+
+
+
+.footer_container .footer_text{
+	width : 75vw;
+	vertical-align : middle;
+	color : white;
+}

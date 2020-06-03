@@ -1,0 +1,92 @@
+.login_container{
+
+
+	display : inline-flex;
+	flex-direction : row;
+	overflow : auto;
+	
+	width : 100vw;
+	height : 100vh;
+	
+	overflow-y : hidden;
+	
+}
+
+.login_left {
+	width : 33%;
+    box-sizing : border-box;
+	border : solid 1px;
+	display : flex;
+	flex-direction:column;
+	
+	
+	
+}
+.login_right{
+
+	width : 67%;
+	height : 100vh;
+	background-color : rgb(255,224,25);
+	box-sizing : border-box;
+    border : solid 1px;
+	
+	text-align : center;
+	
+	transition : transform 1.5s;
+	
+	animation-name : slideon;
+	animation-duration : 1.0s;
+	
+}
+
+@keyframes slideon{
+	from {
+		opacity : 0;
+		transform : translateY(80px);
+	}
+	to {
+		opacity : 100;
+		transform : translateY(0);
+	}
+}
+
+#left_img {
+	margin-top : 15%;
+	width : 100%;
+	text-align : center;
+	
+}
+
+h1 {
+	margin-top : 0;
+	font-family : "Cooper Light",Georgia,Times,"Times New Roman",serif;
+	font-size : 50px;
+	font-weight: 100;
+	
+}
+p {
+	font-family : "Graphik Web","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+}
+.footer_text{
+	font-family : "Graphik Web","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+	color : #241c15;
+}
+.login_input{
+	left : 70px;
+}
+.btn_login{
+	width : 70%;
+	height : 50px;
+	font-size : 1.0rem;
+	border-radius : 3px;
+	margin-top : 10px;
+	background : rgb(0,124,137);
+	color : white;
+	font-family: "Graphik Web","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+	border : transparent;
+	cursor : pointer;
+	margin-left : 15%;
+}
+.btn_login:hover {
+	background:rgb(0 , 101 , 112);
+}

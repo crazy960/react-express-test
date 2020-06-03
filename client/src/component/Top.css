@@ -1,0 +1,31 @@
+.top {
+	height : 90px;
+	border : solid 1px;
+	position : fixed;
+	width : 100vw;
+	border-color : #ddd;
+}
+
+.container {
+	border : solid 1px;
+	top : 90px;
+	width : 100%;
+	position : relative;
+	transition: height 0.3s;
+}
+
+.menuContainer{
+	border : solid 1px;
+	position : absolute;
+	top : 30px;
+	left : 5%;
+
+}
+
+.buttonContainer{
+	right : 80px;
+	position : absolute;
+	height : 60%;
+	top : 20%;
+}
+
